@@ -1,0 +1,42 @@
+
+body {
+    text-align: center;
+    background-color: rgb(212, 228, 255);
+    font-family: cursive;
+    font-size: 1.5em;
+}
+
+h1 {
+    background-image: url(https://img.freepik.com/free-vector/flat-design-monsoon-season-clouds-illustration_23-2149424294.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    padding: 10vh;
+    color: darkblue;
+}
+input {
+    border: darkblue solid 2px;
+    border-radius: 5px;
+    height: 30px;
+    width: 40vw;
+}
+button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    width: fit-content;
+    height: 35px;
+    padding: 10px;
+    vertical-align:middle;
+}
+button:hover {
+    background-color: white;
+    color: darkblue;
+    border: 1px solid darkblue;
+}
+hr {
+    margin-top: 50px;
+    border: darkblue dashed 1px;
+}
+#weatherResult {
+    color: darkblue;
+}

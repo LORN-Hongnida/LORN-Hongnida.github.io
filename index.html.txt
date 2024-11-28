@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Weather App</h1>
+    <form id="weatherForm">
+        <label for="cityInput">Enter City:</label>
+        <input type="text" id="cityInput" required>
+        <button type="submit">Get Weather</button>
+    </form>
+    <hr>
+    <div id="weatherResult"></div>
+
+
+    <!-- Add your script tag here -->
+     <script src="script.js"></script>
+</body>
+</html>
